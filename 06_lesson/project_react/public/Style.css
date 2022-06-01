@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #6f7075;
+}
+
+.card {
+  /* card container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  width: 550px;
+  height: 100vh;
+  background: #23252c;
+}
+
+.my_photo {
+  /* user photo */
+  width: 100%;
+  height: auto;
+  width: 317px;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.about_me,
+.titles {
+  /* details about */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60.8%;
+  height: fit-content;
+  background: #f5f5f5;
+}
+
+.my_name {
+  /* Nicolae Toma */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 30px;
+  text-align: center;
+  color: #2b283a;
+}
+
+.job_title {
+  /* junior frontend */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 15px;
+  text-align: center;
+  color: #f47d27;
+}
+
+.site_link {
+  text-decoration: none;
+}
+.github {
+  /* website */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 150%;
+  text-align: center;
+  color: #4a4e74;
+}
+.email {
+  margin-left: 30px;
+  width: 247px;
+  height: 34px;
+}
+.about,
+.interests {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.about > p,
+.interests > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2%;
+  width: 60.8%;
+  height: fit-content;
+  background: #d5d4d8;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.social_icons {
+  width: 10%;
+  height: auto;
+  border-radius: 5px;
+}
