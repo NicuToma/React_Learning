@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #21222a;
+}
+.titleLogo {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+  color: dodgerblue;
+}
+
+.react_logo {
+  max-width: 10%;
+  height: auto;
+}
+.react_facts {
+  color: #61dafb;
+  font-size: 22px;
+  font-weight: 700;
+}
+.react_course {
+  color: #deebf8;
+  font-weight: 600;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  height: 90vh;
+  background-color: #282d35;
+  background-image: url(./react.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  color: white;
+}
+
+.about_react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+.main_content h1 {
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  margin-left: 20px;
+}
+
+.about_react li::before {
+  content: "\2022";
+  color: #61dafb;
+  font-size: 2em;
+  padding-right: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.about_react li {
+  padding-block: 10px;
+  line-height: 19px;
+  font-size: 1.5em;
+}
