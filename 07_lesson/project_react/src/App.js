@@ -24,7 +24,6 @@ Notes:
   currently are, so don't worry about the fact that you're hard-coding all
   this data into the component.
 */
-
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
